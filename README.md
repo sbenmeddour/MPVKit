@@ -63,10 +63,6 @@ If you want the demo app to use the local build version, you need to modify `Pac
     path: "dist/release/Libavcodec.xcframework.zip"
 ),
 .binaryTarget(
-    name: "Libavdevice-GPL",
-    path: "dist/release/Libavdevice.xcframework.zip"
-),
-.binaryTarget(
     name: "Libavformat-GPL",
     path: "dist/release/Libavformat.xcframework.zip"
 ),

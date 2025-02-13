@@ -31,7 +31,7 @@ let package = Package(
         .target(
             name: "_FFmpeg",
             dependencies: [
-                "Libavcodec", "Libavdevice", "Libavfilter", "Libavformat", "Libavutil", "Libswresample", "Libswscale",
+                "Libavcodec", "Libavfilter", "Libavformat", "Libavutil", "Libswresample", "Libswscale",
                 "Libssl", "Libcrypto", "Libass", "Libfreetype", "Libfribidi", "Libharfbuzz",
                 "MoltenVK", "Libshaderc_combined", "lcms2", "Libplacebo", "Libdovi", "Libunibreak",
                 "gmp", "nettle", "hogweed", "gnutls", "Libdav1d", "Libuavs3d"
@@ -68,7 +68,7 @@ let package = Package(
         .target(
             name: "_FFmpeg-GPL",
             dependencies: [
-                "Libavcodec-GPL", "Libavdevice-GPL", "Libavfilter-GPL", "Libavformat-GPL", "Libavutil-GPL", "Libswresample-GPL", "Libswscale-GPL",
+                "Libavcodec-GPL", "Libavfilter-GPL", "Libavformat-GPL", "Libavutil-GPL", "Libswresample-GPL", "Libswscale-GPL",
                 "Libssl", "Libcrypto", "Libass", "Libfreetype", "Libfribidi", "Libharfbuzz",
                 "MoltenVK", "Libshaderc_combined", "lcms2", "Libplacebo", "Libdovi", "Libunibreak",
                 "Libsmbclient", "gmp", "nettle", "hogweed", "gnutls", "Libdav1d", "Libuavs3d"
@@ -100,11 +100,6 @@ let package = Package(
             name: "Libavcodec-GPL",
             url: "\(Libavcodec-GPL_url)",
             checksum: "\(Libavcodec-GPL_checksum)"
-        ),
-        .binaryTarget(
-            name: "Libavdevice-GPL",
-            url: "\(Libavdevice-GPL_url)",
-            checksum: "\(Libavdevice-GPL_checksum)"
         ),
         .binaryTarget(
             name: "Libavformat-GPL",
